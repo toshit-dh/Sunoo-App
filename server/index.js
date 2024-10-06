@@ -16,7 +16,7 @@ app.use(cors());
 app.use(morgan('dev'))
 connectDb();
 app.get("/",(req,res)=>{
-	res.send("WELCOME TO BEATBOX MUSIC")
+	res.send("WELCOME TO SUNOO MUSIC APP")
 })
 app.use("/api/songs/", songsRouter);
 app.use("/api/users/", userRouter);
